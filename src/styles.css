@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; background-color: blanchedalmond; color: darkslategrey}
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; background-color: #e5e5e5; color: darkslategrey}
 .wrapper {
   height: 100%;
 }
@@ -17,4 +17,8 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; background-
   flex-direction: column;
   flex-basis: 100%;
   flex: 1;
+}
+
+.mat-card {
+  margin: 5px
 }

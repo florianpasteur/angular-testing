@@ -8,6 +8,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatListModule} from '@angular/material/list';
 import {HttpClient, HttpClientModule} from '@angular/common/http';
+import {MatCardModule} from '@angular/material/card';
+import {MatButtonModule} from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -19,6 +21,8 @@ import {HttpClient, HttpClientModule} from '@angular/common/http';
     BrowserModule,
     BrowserAnimationsModule,
     MatGridListModule,
+    MatCardModule,
+    MatButtonModule,
     MatListModule,
     HttpClientModule,
   ],
