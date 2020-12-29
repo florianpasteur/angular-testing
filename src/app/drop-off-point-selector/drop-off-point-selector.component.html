@@ -1,0 +1,16 @@
+<div class='some-page-wrapper'>
+  <div class='row'>
+    <div class='column'>
+      <mat-list >
+        <mat-list-item  *ngFor="let point of dropOffPoints | slice : 0: 25; let i = index">
+          {{ point.location_name }}
+          <button (click)="showOnMap(point)">Show</button>
+          <button (click)="choosePoint(point)">Choose this point</button>
+        </mat-list-item>
+      </mat-list>
+    </div>
+    <div class='column'>
+      <app-map [lng]="mapLongitude" [lat]="mapLatitude"></app-map>
+    </div>
+  </div>
+</div>
